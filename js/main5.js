@@ -34,7 +34,7 @@ const music_list = [
         music : '/project-v2/resources/audio/altaj.mp3'
     },
     {
-        img : '/project-v2/resources/image/hymn.png',
+        img : '/project-v2/resources/image/images.jpeg',
         name : 'Hymn For The Weekend',
         artist : 'Coldplay',
         music : '/project-v2/resources/audio/hymn.mp3'
