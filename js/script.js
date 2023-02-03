@@ -102,6 +102,7 @@ change6.addEventListener('click', () => {
       calendar.style.display = 'none';
       calculator.style.display = 'none';
       clock.style.display = 'none';
+      clock2change.style.display = 'none';
       music.style.display = 'flex';
         
     }
