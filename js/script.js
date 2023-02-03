@@ -97,6 +97,7 @@ change6.addEventListener('click', () => {
       clock2change.style.display = 'none';
       calendar.style.display = 'none';
       calculator.style.display = 'none';
+      clock.style.display = 'none';
     } else{
       clock2change.style.display = 'none';
       calendar.style.display = 'none';
