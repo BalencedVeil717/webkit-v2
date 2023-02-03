@@ -1,17 +1,20 @@
 .player{
-  height: 95vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-right: 100px;
+  
 }
 .wrapper{
   border: 1px solid transparent;
-  padding: 30px;
+  padding: 10px;
   border-radius: 20px;
+  height: 600px;
+  width: 450px;
   background-color: rgba(255,255,255,0.06);
   box-shadow: 0 0 50px rgb(65, 2, 75);
+  margin-right: 100px;
 }
 
 .details {
@@ -22,9 +25,10 @@ justify-content: center;
 }
 
 .track-art {
-margin: 25px;
-height: 250px;
-width: 250px;
+  margin: 25px;
+  margin-top: 10px;
+height: 110px;
+width: 110px;
 border:2px solid 	#FFFAFA;
 background-size: cover;
 background-position: center;
@@ -42,19 +46,21 @@ font-size: 1rem;
 }
 
 .track-name {
-font-size: 2.5rem;
+font-size: 30px;
 }
 
 .track-artist {
 margin-top: 5px;
-font-size: 1.5rem;
+font-size: 20px;
 }
 
 .buttons {
 display: flex;
-flex-direction: row;
+justify-content: center;
 align-items: center;
-margin-bottom: 30px;
+width: 420px;
+padding: 0;
+margin: 0;
 }
 .active{
     color: black;
@@ -65,7 +71,7 @@ margin-bottom: 30px;
 .playpause-track,
 .prev-track,
 .next-track {
-padding: 25px;
+padding: 20px;
 opacity: 0.8;
 transition: opacity .2s;
 }
@@ -88,7 +94,7 @@ align-items: center;
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
-height: 5px;
+height: 3px;
 background: #83A9FF;
 -webkit-transition: .2s;
 transition: opacity .2s;
@@ -153,15 +159,15 @@ cursor: pointer;
     }
 }
 .loader {
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .loader .stroke{
     background: #f1f1f1;
-    height: 150%;
-    width: 10px;
+    height: 100%;
+    width: 7px;
     border-radius: 50px;
     margin: 0 5px;
     animation: animate 1.4s linear infinite;
