@@ -22,28 +22,28 @@ let updateTimer;
 
 const music_list = [
     {
-        img : '/webkit-v2/resources/image/dark-rave.png',
+        img : '../resources/image/dark-rave.png',
         name : 'Dark Rave',
         artist : 'Farhan Van Adel',
-        music : '/webkit-v2/resources/audio/dark-rave.mp3'
+        music : '../resources/audio/dark-rave.mp3'
     },
     {
-        img : '/webkit-v2/resources/image/altaj.png',
+        img : '../resources/image/altaj.png',
         name : 'Flute Beatbox',
         artist : 'Altaj',
-        music : '/webkit-v2/resources/audio/altaj.mp3'
+        music : '../resources/audio/altaj.mp3'
     },
     {
-        img : '/webkit-v2/resources/image/images.jpeg',
+        img : '../resources/image/images.jpeg',
         name : 'Hymn For The Weekend',
         artist : 'Coldplay',
-        music : '/webkit-v2/resources/audio/hymn.mp3'
+        music : '../resources/audio/hymn.mp3'
     },
     {
-        img : '/webkit-v2/resources/image/dancin.png',
+        img : '../resources/image/dancin.png',
         name : 'Dancin',
         artist : 'Krono Remix',
-        music : '/webkit-v2/resources/audio/dancin.mp3'
+        music : '../resources/audio/dancin.mp3'
     }
 ];
 
